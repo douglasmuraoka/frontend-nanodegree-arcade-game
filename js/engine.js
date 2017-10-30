@@ -96,6 +96,10 @@ var Engine = (function(global) {
         player.update();
     }
 
+    /* This is called by update function and verifies if any enemy has
+     * collided with the player. If so, resets player position and pops
+     * up an alert window with the text "LOSE". 
+     */ 
     function checkCollisions() {
         for (var i=0; i<allEnemies.length; i++){
             var enemy = allEnemies[i];

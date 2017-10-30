@@ -36,12 +36,14 @@ var Player = function() {
 };
 
 Player.prototype.update = function() {
+    // Checks if player's current position is in the winning area (top row)
     if (this.y < Constants.sizeY) {
         alert("WIN");
         this.reset();
     }
 };
 
+// Draw the player on the screen, required method for game
 Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y - 10);
 };
@@ -66,6 +68,7 @@ Player.prototype.handleInput = function(keyPressed) {
     }
 };
 
+// Resets player position to initial state (center column, first row)
 Player.prototype.reset = function() {
     this.x = 2 * Constants.sizeX;
     this.y = 5 * Constants.sizeY;
