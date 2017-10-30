@@ -1,6 +1,16 @@
-frontend-nanodegree-arcade-game
-===============================
+#Front-End Web Developer Nanodegree Arcade Game (Frogger-like)
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This is a game created during the Udacity's Front-End Web Developer Nanodegree. The goal is reaching the river without
+being hit by any ladybug. If you are hit, you lose and go back to initial position.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+##Installation
+
+To play this game, all you need is a browser installed. Open index.html with your browser and have fun! :)
+
+##Controls
+
+Use arrow keys to move your character. &#8593; to move up, &#8592; to move left, &#8594; to move right and &#8595; to move down.
+
+##License
+
+The content of this repository is licensed under a [MIT License](https://opensource.org/licenses/MIT).
