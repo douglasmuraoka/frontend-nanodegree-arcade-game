@@ -5,7 +5,9 @@ being hit by any ladybug. If you are hit, you lose and go back to initial positi
 
 ## Installation
 
-To play this game, all you need is a browser installed. Open index.html with your browser and have fun! :)
+Clone or download all files from this repository.
+Make sure you have a browser installed.
+Open index.html with your browser and have fun! :)
 
 ## Controls
 
